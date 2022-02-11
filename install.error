@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/vscode/.vscode-server/extensions/ms-python.python-2021.12.1559732655/pythonFiles/shell_exec.py", line 26, in <module>
+    subprocess.check_call(shell_args, stdout=sys.stdout, stderr=sys.stderr)
+  File "/usr/lib/python3.9/subprocess.py", line 373, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['/usr/bin/python3', '/home/vscode/.vscode-server/extensions/ms-python.python-2021.12.1559732655/pythonFiles/get-pip.py', '/tmp/tmp-260lbnzTlW2NY0l.logpip']' returned non-zero exit status 1.
